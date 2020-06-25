@@ -1,2 +1,2 @@
 # crescendo-backend
-A backend for youth movement related tasks
+A backend for youth movement related tasks.
