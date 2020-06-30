@@ -1,5 +1,7 @@
-from crescendo_backend import __version__
+import crescendobackend
+from django.test import TestCase
 
 
-def test_version():
-    assert __version__ == '0.1.0'
+class VersionTestCase(TestCase):
+    def test_version(self) -> None:
+        self.assertEqual(crescendobackend.__version__, '0.1.0')
